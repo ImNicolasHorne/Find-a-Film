@@ -448,4 +448,8 @@ p{
         font-size: 10px;
         min-width: 100px;
     }
+
+    select{
+        margin-left: .02rem;
+    }
 }
