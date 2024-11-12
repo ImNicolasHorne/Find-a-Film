@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find-a-Film</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./index.js"></script>
+  </head>
+  <body class="flex__container">
+    <header class="site__header">
+        <div class="container">
+            <div class="header__content">
+                <h1 class="site__title">
+                    Find-a-Film
+                </h1>
+                <nav>
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link nav__link--no" href="#">Home</a></li>
+                        <li class="nav__item"><a class="nav__link nav__link--no" href="#search">Browse</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#search">Search</a></li>
+                        <li class="nav__item"><a class="nav__link nav__link--no" href="#footer">About</a></li>
+                    </ul>
+                </nav>    
+            </div>
+        </div>
+    </header>
+
+    <main class="main__content">
+        <div class="container search__container">
+            <!-- SEARCH -->
+             <section id="search" class="section">
+                <h2 class="section__title">
+                    Search Movies
+                </h2>
+                <form id="search__form" class="search__form">
+                    <input type="search"
+                        class="search__input"
+                        placeholder="Find a movie...">
+                    <select name="year__input" id="year__container" class="year__container">
+                        <option class="year__option" value="All__years">Year</option>
+                    </select>
+                    <button type="submit" class="search__btn">Search</button>
+                </form>
+                <div class="results__container">
+
+                </div>            
+             </section>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer id="footer" class="site__footer">
+
+        <div class="container copyright">
+            <p>Copyright© 2024 Nicolas Horne </p>
+        </div>
+    </footer>
+  </body>
+</html>
