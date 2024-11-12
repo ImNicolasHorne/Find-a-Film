@@ -138,7 +138,7 @@ SEARCH
     border: 1px solid #e5e7eb;
     border-radius: 32px;
     min-width: 368px;
-    
+    cursor:text
 
 }
 
@@ -158,6 +158,33 @@ SEARCH
     -1px -1px 0 #494d5f,
     1px -1px 0 #494d5f;
     margin-left: 8px;
+}
+.year__container{
+    background-color: #a0d2eb;
+    color: #d0bdf4;
+    font-size: 12px;
+    font-weight: 700;
+    text-shadow:
+    1px 1px 0 #494d5f,
+    -1px 1px 0 #494d5f,
+    -1px -1px 0 #494d5f,
+    1px -1px 0 #494d5f;
+    width: 62px;
+    border-radius: 12px;
+}
+
+.type__container{
+    background-color: #a0d2eb;
+    color: #d0bdf4;
+    font-size: 12px;
+    font-weight: 700;
+    text-shadow:
+    1px 1px 0 #494d5f,
+    -1px 1px 0 #494d5f,
+    -1px -1px 0 #494d5f,
+    1px -1px 0 #494d5f;
+    width: 62px;
+    border-radius: 12px;
 }
 
 /* 
